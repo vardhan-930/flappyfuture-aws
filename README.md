@@ -2,11 +2,11 @@
 
 A futuristic take on the classic Flappy Bird game with beautiful neon visuals, particle effects, and smooth gameplay.
 
-![Flappy Future Game](https://via.placeholder.com/800x400?text=Flappy+Future+Game)
+![Flappy Future Game](http://flappyfuture.s3-website.ap-south-1.amazonaws.com)
 
 ## 🎮 Play Online
 
-Play the game online at: [AWS S3 Hosted Link](https://your-s3-bucket-url.s3.amazonaws.com/index.html)
+Play the game online at: [AWS S3 Hosted Link](http://flappyfuture.s3-website.ap-south-1.amazonaws.com)
 
 ## ✨ Features
 
@@ -39,7 +39,7 @@ This game is hosted on AWS S3 as a static website. Here's how it was deployed:
          "Effect": "Allow",
          "Principal": "*",
          "Action": "s3:GetObject",
-         "Resource": "arn:aws:s3:::your-bucket-name/*"
+         "Resource": "arn:aws:s3:::flappyfuture/*"
        }
      ]
    }
@@ -52,13 +52,13 @@ This game is hosted on AWS S3 as a static website. Here's how it was deployed:
 
 4. **Access the game**
    - The game is available at the S3 website endpoint:
-   - `http://your-bucket-name.s3-website-region.amazonaws.com`
+   - `http://flappyfuture.s3-website.ap-south-1.amazonaws.com`
 
 ### Local Development
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/flappy-future.git
+   git clone https://github.com/yourusername/flappyfuture-aws.git
    cd flappy-future
    ```
 
@@ -118,4 +118,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-Created with AWS by Vardhan
+Created with AWS Q CLI  by Vardhan
