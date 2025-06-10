@@ -2,7 +2,7 @@
 
 A futuristic take on the classic Flappy Bird game with beautiful neon visuals, particle effects, and smooth gameplay.
 
-![Flappy Future Game](http://flappyfuture.s3-website.ap-south-1.amazonaws.com)
+![Flappy Future Game](https://retroflappyfuture.netlify.app/)
 
 
 https://github.com/user-attachments/assets/09a3927b-8940-4649-8c22-f4431dc71d5e
@@ -14,7 +14,7 @@ https://github.com/user-attachments/assets/09a3927b-8940-4649-8c22-f4431dc71d5e
 https://github.com/user-attachments/assets/e1b6410a-b04a-42eb-ad3c-2ae1617adc67
 
 
-Play the game online at: [AWS S3 Hosted Link](http://flappyfuture.s3-website.ap-south-1.amazonaws.com) [ */make sure to play in normal mode/* ]
+Play the game online at:  (https://retroflappyfuture.netlify.app/) [ */make sure to play in normal mode/* ]
 
 ## ✨ Features
 
